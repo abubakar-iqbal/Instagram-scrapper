@@ -1,7 +1,8 @@
 # Instagram-scrapper
 Scrapp Instagram user data in php
 
- private function getInstagramUserStats($url)
+
+    private function getInstagramUserStats($url)
     {
         $regex = '/(?:(?:http|https):\/\/)?(?:www\.)?(?:instagram\.com|instagr\.am)\/([A-Za-z0-9-_\.]+)/im';
         // Verify valid Instagram URL
@@ -24,5 +25,3 @@ Scrapp Instagram user data in php
 
             return false;
         }
-
-    }
