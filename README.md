@@ -24,4 +24,4 @@ Scrapp Instagram user data in php
             }
 
             return false;
-        }
+    }
